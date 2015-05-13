@@ -69,11 +69,6 @@ class Vue {
     return _vue.callMethod(symbolName, invocation.positionalArguments);
   }
 
-  _mountMethod(String name, JsFunction method) {
-
-    _vue[name] = method;
-  }
-
   Element get $el {
 
     return _vue[r'$el'];
