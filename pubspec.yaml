@@ -1,0 +1,4 @@
+name: vue
+version: 0.1.0
+description: An interface for interacting with a JavaScript instance of Vue.js
+homepage: http://github.com/emilniklas/vue-dart
