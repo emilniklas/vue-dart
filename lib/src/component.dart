@@ -2,7 +2,7 @@ part of vue;
 
 abstract class VueComponent {
 
-  Map<String, dynamic> get initialState => {};
+  get initialState => {};
 
   JsObject _state;
 
@@ -12,9 +12,9 @@ abstract class VueComponent {
 
   final String template = '';
 
-  void register(String name) {
+  void register(String name) async {
 
-    _state = new JsObject.jsify(initialState);
+    _state = new JsObject.jsify(await initialState);
 
     context['Vue']['component'].apply([
       name,
