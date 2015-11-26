@@ -1,2 +1,4 @@
 packages
-web
+.packages
+pubspec.lock
+.pub

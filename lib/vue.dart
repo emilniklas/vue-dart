@@ -1,7 +1,5 @@
 library vue;
 
-import 'dart:js';
-import 'dart:html';
+//import 'src/interop.dart' as interop;
 
 part 'src/vue.dart';
-part 'src/component.dart';
