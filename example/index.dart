@@ -1,7 +1,2 @@
-import 'package:vue/src/interop.dart';
+import 'package:vue/vue.dart';
 
-main() {
-  Vue.extend(new VueComponentDeclaration());
-
-  new Vue(new VueDeclaration(el: 'body'));
-}
